@@ -132,5 +132,18 @@ body {
 .winner .win {
   margin: 0 auto;
   border: 1px solid #eee;
+}
 
+@media (max-width: 400px) {
+  .square {
+    width: 50px;
+    height: 50px;
+    font-size: 38px;
+  }
+
+  .introBall {
+    width: 50px;
+    height: 50px;
+    font-size: 38px;
+  }
 }
