@@ -9,7 +9,7 @@ export function IntroBall({introBall, handleClick, turn}) {
             index={index}
             handleClick={handleClick}
             isTurn={turn}>
-            ⬇
+            ⇩
           </ButtonIntro>
         );
       })}
