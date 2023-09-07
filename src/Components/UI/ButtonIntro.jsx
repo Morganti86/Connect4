@@ -1,6 +1,6 @@
 import { TURNS } from "../../Constants";
 export function ButtonIntro({ children, isTurn, index, handleClick }) {
-  const color = isTurn === TURNS.X ? "is-blue" : "is-white";
+  const color = isTurn === TURNS.X ? "is-primary" : "is-secondary";
   const className = `introBall ${isTurn ? color : ""}`;
   return (
     <button

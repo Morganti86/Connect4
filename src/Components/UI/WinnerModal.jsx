@@ -7,7 +7,7 @@ export function WinnerModal({ winner, nextGame }) {
     <section className="winner">
       <div className="text">
         <h2>{winnerText}</h2>
-        <header className="win">{winner && <Square>{winner}</Square>}</header>
+        <header>{winner && <Square>{winner}</Square>}</header>
         <footer>
           <ButtonReload handleClick={nextGame}>NEXT MATCH</ButtonReload>
         </footer>
