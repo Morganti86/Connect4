@@ -166,11 +166,11 @@ body {
   }
 
   .turn {
-    font-size: 12px;
+    font-size: 20px;
   }
 }
 
-@media (max-width: 300px) {
+/* @media (max-width: 300px) {
   .square {
     width: 39px;
     height: 39px;
@@ -184,6 +184,6 @@ body {
   }
 
   .turn {
-    font-size: 10px;
+    font-size: 20px;
   }
-}
+} */
