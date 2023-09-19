@@ -77,13 +77,11 @@ body {
 }
 
 .turn {
-  display: flex;
-  justify-content: space-between;
   margin: 15px auto;
   position: relative;
   border-radius: 10px;
   font-size: 25px;
-  line-height: 20px;
+  line-height: 40px;
 }
 
 .is-turn {
@@ -91,12 +89,10 @@ body {
 }
 
 .is-primary {
-  /* background: rgb(151,113,198); */
   background: rgb(136, 108, 228);
 }
 
 .is-secondary {
-  /* background: rgb(235,43,31); */
   background: rgb(232, 18, 36);
 }
 
