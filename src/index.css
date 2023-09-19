@@ -83,6 +83,7 @@ body {
   position: relative;
   border-radius: 10px;
   font-size: 25px;
+  line-height: 20px;
 }
 
 .is-turn {
@@ -90,11 +91,13 @@ body {
 }
 
 .is-primary {
-  background: rgb(151,113,198);
+  /* background: rgb(151,113,198); */
+  background: rgb(136, 108, 228);
 }
 
 .is-secondary {
-  background: rgb(235,43,31);
+  /* background: rgb(235,43,31); */
+  background: rgb(232, 18, 36);
 }
 
 .buttonReload {
@@ -150,7 +153,6 @@ body {
 } */
 
 @media (max-width: 500px) {
-
   body {
     background-image: url("/Background2.png");
   }
