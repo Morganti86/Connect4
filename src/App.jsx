@@ -9,7 +9,6 @@ import { ButtonReload } from "./Components/UI/ButtonReload";
 import { checkWinner, checkEndGame } from "./Components/Logic/Checkers";
 import { Footer } from "./Components/UI/Footer";
 import confetti from "canvas-confetti";
-import "./App.css";
 
 function App() {
   const [board, setBoard] = useState(Array(42).fill(null));
@@ -48,7 +47,7 @@ function App() {
           particleCount: 250,
         });
         setWinner(newWinner);
-        const updateScore =
+        // const updateScore =
           turn === TURNS.X
             ? setP1Score((prev) => prev + 1)
             : setP2Score((prev) => prev + 1);
